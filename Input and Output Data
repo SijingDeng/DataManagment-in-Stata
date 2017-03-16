@@ -1,4 +1,4 @@
-# Input: infile, insheet, infix, use, xmluse
+Input: infile, insheet, infix, use, xmluse
 
 ## Data with delimiter "tab"
    type d11.txt
