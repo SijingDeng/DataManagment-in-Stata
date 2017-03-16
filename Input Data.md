@@ -21,7 +21,7 @@ insheet v1 v2 v3 using d11.txt, clear </code></pre>
 
 * Excel data: xmluse
 > we need to save file.xls as file.xml first
-<pre><code> xmluse dl.xml, doctype(excel) clear first row </code></pre>
-<pre><code> compress </code></pre>
+<pre><code> xmluse dl.xml, doctype(excel) clear first row
+compress </code></pre>
 > make the saving structure compress
 
