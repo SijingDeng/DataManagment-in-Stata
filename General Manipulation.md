@@ -1,4 +1,4 @@
-**Stata Commands: describe, list, recast, compress, lable, summarize, codebook, inspect, tabulate format**
+**Stata Commands: describe, list, recast, compress, lable, summarize, codebook, inspect, tabulate, format, xpose**
 
 * Look over the data and variable: describe
 * Set variable format: format
