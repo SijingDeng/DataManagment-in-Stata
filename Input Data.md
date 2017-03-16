@@ -1,8 +1,10 @@
 * Stata Commands: infile, insheet, infix, use, xmluse
 
 * Data with delimiter "tab": insheet
-<pre><code> type d11.txt
-   insheet v1 v2 v3 using d11.txt, clear </code></pre>
+<pre><code>
+type d11.txt
+insheet v1 v2 v3 using d11.txt, clear 
+</code></pre>
 
 * Data with delimiter "blank": infile
 <pre><code> insheet using d21.txt, clear delimiter(" ") </code></pre>
@@ -19,7 +21,8 @@ Need to claim the type of data when importing otherwise those values will be rep
 * Stata data: use
 <pre><code> use d3.dta, clear </code></pre>
 
-* Excel data: xmluse *
+* Excel data: xmluse
+
 we need to save file.xls as file.xml first
 <pre><code> xmluse dl.xml, doctype(excel) clear first row </code></pre>
 <pre><code> compress </code></pre>
