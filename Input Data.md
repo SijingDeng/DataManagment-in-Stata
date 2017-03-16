@@ -19,7 +19,7 @@ Need to claim the type of data when importing otherwise those values will be rep
 * Stata data: use
 <pre><code> use d3.dta, clear </code></pre>
 
-* Excel data: xmluse
+* Excel data: xmluse *
 we need to save file.xls as file.xml first
 <pre><code> xmluse dl.xml, doctype(excel) clear first row </code></pre>
 <pre><code> compress </code></pre>
