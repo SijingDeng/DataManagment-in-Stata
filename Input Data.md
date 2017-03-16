@@ -1,4 +1,4 @@
-* Stata Commands: infile, insheet, infix, use, xmluse
+ **Stata Commands: infile, insheet, infix, use, xmluse**
 
 * Data with delimiter "tab": insheet
 <pre><code>type d11.txt
