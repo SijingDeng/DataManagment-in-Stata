@@ -1,9 +1,9 @@
-* Input: infile, insheet, infix, use, xmluse
+* Commands: infile, insheet, infix, use, xmluse
 
-* Data with delimiter "tab" //
-   type d11.txt
-   * check the type of the file 
+* Data with delimiter "tab"
+  <pre><code> type d11.txt
    insheet v1 v2 v3 using d11.txt, clear
+   </code></pre>
 
 ## Data with delimiter "blank" ##
    insheet using d21.txt, clear delimiter(" ")
