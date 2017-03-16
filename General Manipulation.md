@@ -1,5 +1,5 @@
 **Stata Commands: describe, list, recast, compress, lable, summarize, codebook, inspect, tabulate format**
-<pre><code></code></pre>
+
 * Look over the data and variable: describe
 * Set variable format: format
 <pre><code>sysuse, auto, clear
